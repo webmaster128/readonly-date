@@ -1,3 +1,4 @@
-module.exports = {
-  ReadonlyDate: Date,
+const ReadonlyDate = Date;
+export {
+  ReadonlyDate,
 }
