@@ -8,8 +8,18 @@
   ],
   "license": "Apache-2.0",
   "type": "module",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.d.ts",
+    "index.js",
+    "LICENSE",
+    "NOTICE"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/webmaster128/readonly-date"
